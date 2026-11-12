@@ -2,11 +2,17 @@
 
 int a;
 int b;
+double c;
+double d;
 
-a=100;
-b=3;
+a = 7;
+b = 10;
+c = 12.5;
+d = 16.7;
 
-int x = a/b;
-int y = a%b;
+double prosjek;
 
-Console.WriteLine("a dijeljeno s b je " + x + " i ostatak " + y);
+prosjek = (a+b+c+d)/4;
+
+
+Console.WriteLine("Prosjek:"+prosjek);
